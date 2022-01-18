@@ -1,0 +1,225 @@
+/* css referente header */
+html{
+    margin: 0.5% 0% 0.5% 0.5%;
+}
+
+.iconeYoutube{
+    max-width: 90px;
+    max-height: 30px;
+    padding-left: 24px;
+}
+
+
+
+.container-box{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.icone-3barra {
+    margin-left: 16px;
+    cursor:pointer;
+}
+
+.div-header{
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+   
+}
+
+.material-icons i{
+    font-size: 29px !important;
+}
+
+input{
+    height: 40px;
+    width: 553px;
+    font-size: 16px;
+    border: 1px solid;
+    border-color: #d9d9d9;
+}
+
+.div-header button{
+    height: 40px;   
+    
+}
+
+.microfone{
+    border-radius: 100px;
+    border-color: #ccc;
+    margin-left: 10px;
+}
+
+.margin-icons{
+    margin-right: 20px;
+}
+
+.button-search{
+    width: 60px;
+}
+
+.usuario-icone{
+    width: 35px;
+    border-radius: 100px;    
+}
+
+button{
+    background-color: #f8f8f8;   
+    border: 1px solid;
+    border-color: #d9d9d9;
+}
+
+/* css referente aside-bar */
+
+.aside-BarExpansao{
+    position: relative; 
+    bottom: 300px; 
+    right: 170px; 
+}
+
+.div-aside .aside-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60px;
+}
+
+.div-aside{
+    align-items: center;
+}
+
+.aside-icons{
+    padding-top: 33px;
+   
+
+}
+
+.aside-icons span{
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.div-aside .aside-iconsexpensao{    
+    flex-direction:row;
+}
+
+.aside-icons .margin-span{
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+  
+  #check:checked ~ div  {
+    width: 120px;
+    height: auto;
+    background: #ffffff;
+    position: relative;
+    animation: mymove 1s 1;
+    animation-fill-mode: forwards;
+
+    
+  } 
+
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 0.1px;}
+  }
+
+.max-height{
+    max-height: 1 ;
+}  
+
+.icone-config{
+    margin-left: 18px;
+    margin-top: 4px;
+}
+
+
+
+/* css referente corpo principal */
+
+.div-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-secundaria{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 1px;  
+    background-color: #fff;   
+    border-top: 1px solid;
+    border-bottom: 1px solid ;
+    border-color: #d9d9d9;
+    height: 50px;
+    align-items: center;
+}
+
+.butoes{
+    width: 59px;
+    border-radius: 50px;
+    margin-left: 30px;
+    font-size: 15px;
+    height: 31px;
+}
+
+.butoes:hover{
+    background-color: black;
+    color: white;
+}
+
+#checks:checked ~ button  {
+   margin-left: 30px;
+
+    
+}
+
+.section-main{    
+    margin-left: 61px;
+    padding-left: 34px;
+    padding-top: 20px;
+    background-color: #f9f9f9;
+    padding-bottom: 38.5px;
+}
+
+
+
+.thumbs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.thumbs-icone{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    
+    
+}
+
+
+.thumbs-titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.thumbs-escrita{
+    margin-left: 10px;
+}
+
+.thumb-nomeCanal{
+    margin-top: 1px;
+    margin-left: 36px;
+    font-size: 12px;
+    color: rgb(92, 92, 92);
+}
+
+h3{
+    color: rgb(114, 114, 114);
+    margin-bottom: 3px ;
+}
