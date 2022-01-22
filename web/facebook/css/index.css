@@ -1,0 +1,148 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;    
+    background-color: #f0f2f5;
+    height: 82vh;
+}
+
+.flex-containerFilho{
+    margin-top: 40px;
+}
+
+.flex-containerFilho, .flex-containerLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+   
+
+}
+
+.flex-containerLogin{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #ffffff;
+
+}
+
+picture{
+    display: contents;
+}
+
+img{
+    width: 47%;
+}
+
+
+input{
+    width: 88%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #f4f5f6;
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.nomeSobrenome input{
+    width: 40%; 
+}
+
+.buttonIniciar{
+    width: 88%;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid #b7d4fb;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 17px;
+    padding-top: 9px;
+    font-weight: 500;
+}
+
+.divIniciarSessao{
+    display: inline-block;
+    width: 100% ;
+    margin-top: 10px;
+     
+}
+
+.buttonCriar{
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px; 
+    margin-bottom: 20px;
+    border: none;
+    border: 1px solid #dbf1d7;
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 20px;
+}
+
+span::after{
+    background: cornflowerblue;
+    width: 100%;
+}
+
+.fieldset-border {
+    border:none;
+   border-top: 1px solid blueviolet;
+    margin: 0 0 1.5em 0 !important;    
+    width:88%;
+    border-color: #f3f3f3;
+    margin: 16px 0 !important;
+    padding-bottom: 0;
+   
+   
+
+}
+  
+  .fieldset-border .legend-border {
+    font-size: 1.2em !important;  
+    width: auto;
+    padding: 0 10px;
+    border-bottom: none;
+    color: #eeeeee;
+    font-size: 10px;
+}
+
+.divIniciarSessao a{
+    color: #1877f2;
+    
+}
+
+
+.flex-containerFooter{
+    display: flex;    
+    justify-content: center;   
+    width: 90%;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;   
+}
+
+li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
